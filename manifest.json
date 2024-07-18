@@ -1,0 +1,11 @@
+{
+    "name":"cricket Score",
+    "version":"1.0.0", 
+    "description":"extensions for live cricket matches",
+    "manifest_version":3,
+    "author":"Divyansh Sharma",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"buzzcrick" 
+    }
+}

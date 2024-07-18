@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.match-container {
+    list-style-type: none;
+    padding: 0;
+}
+
+.match-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+}
+
+.team-logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.team-details {
+    margin-left: 10px;
+}
+
+.team-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.team-score {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 1rem;
+    color: #888;
+    margin: 0 10px;
+}
